@@ -1,0 +1,44 @@
+{
+  "name": "menuqr",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.5.0",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/joy": "^5.0.0-beta.19",
+    "@mui/material": "latest",
+    "@tanstack/query-sync-storage-persister": "^5.14.2",
+    "@tanstack/react-query": "^5.14.6",
+    "@tanstack/react-query-devtools": "^5.14.6",
+    "@tanstack/react-query-persist-client": "^5.14.6",
+    "axios": "^1.6.2",
+    "clipboard-copy": "^4.0.1",
+    "keen-slider": "^6.8.6",
+    "next": "latest",
+    "nprogress": "^0.2.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "^2.4.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
